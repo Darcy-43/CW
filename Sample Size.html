@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="6f1890d2ae344f4896f2f1c6de9b1d99" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_6f1890d2ae344f4896f2f1c6de9b1d99 = echarts.init(
+            document.getElementById('6f1890d2ae344f4896f2f1c6de9b1d99'), 'white', {renderer: 'canvas'});
+        var option_6f1890d2ae344f4896f2f1c6de9b1d99 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "Workforce Size < 250",
+            "legendHoverLink": true,
+            "data": [
+                "15",
+                "1785",
+                "130",
+                "722",
+                "1819",
+                "975",
+                "528",
+                "794",
+                "112",
+                "1303",
+                "1287",
+                "303",
+                "145",
+                "415",
+                "108"
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Workforce Size 250 +",
+            "legendHoverLink": true,
+            "data": [
+                "13",
+                "1370",
+                "71",
+                "312",
+                "1180",
+                "659",
+                "335",
+                "422",
+                "88",
+                "720",
+                "1072",
+                "457",
+                "149",
+                "303",
+                "29"
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Total",
+            "legendHoverLink": true,
+            "data": [
+                "28",
+                "3155",
+                "201",
+                "1034",
+                "2999",
+                "1634",
+                "863",
+                "1216",
+                "200",
+                "2023",
+                "2359",
+                "760",
+                "294",
+                "718",
+                "137"
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Workforce Size < 250",
+                "Workforce Size 250 +",
+                "Total"
+            ],
+            "selected": {
+                "Workforce Size < 250": true,
+                "Workforce Size 250 +": true,
+                "Total": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "rotate": 90
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "Minin",
+                "Manuf",
+                "Water",
+                "Const",
+                "Whole",
+                "Accom",
+                "Trans",
+                "Infor",
+                "Real ",
+                "Profe",
+                "Admin",
+                "Educa",
+                "Human",
+                "Arts,",
+                "Other"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Sample Size",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_6f1890d2ae344f4896f2f1c6de9b1d99.setOption(option_6f1890d2ae344f4896f2f1c6de9b1d99);
+    </script>
+</body>
+</html>
